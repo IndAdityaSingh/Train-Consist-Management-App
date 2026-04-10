@@ -19,6 +19,8 @@ public class UseCase13TrainConsistMgmntTest {
                 loopResult.add(b);
             }
         }
+
+
         assertEquals(1, loopResult.size());
         assertEquals(70, loopResult.get(0).capacity);
     }
